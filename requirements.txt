@@ -1,0 +1,14 @@
+
+Some important library we need to install before run this code.
+  install quickchart library for chart 
+  command-> pip install quickchart.io
+=============================================
+some library need to import 
+  1.  import requests   -> It is required to get requests
+  2.  import datetime, pytz -> for time manipulation
+  3.  from quickchart import QuickChart  -> create chart and save
+  4.  import csv  -> create CSV and stroe the data in file
+
+=============================================
+data.txt file creates on runtime which contains the last 5 days data it is parsed from the API
+DataChart.jpg file also cretes on runtime and it show the line graph to visualize the temprature and the wind speed.
